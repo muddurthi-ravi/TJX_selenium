@@ -1,6 +1,3 @@
-I need changes in this file
-
-
 @tag
 Feature: LoginPage of TJX
   I want to use this for teset History Functionality
