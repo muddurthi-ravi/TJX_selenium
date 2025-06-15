@@ -34,18 +34,17 @@ public class HistoryPage {
 	}
 	@Then("I veriy the dropdown of company button")
 	public void i_veriy_the_dropdown_of_company_button() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    //Driver chnages
+		driver.findElement(By.id("someProperty")).click();
+
 	}
 	@When("I click History button")
 	public void i_click_history_button() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		driver.findElement(By.id("someProperty")).SendKeys("Made a change latest");
 	}
 	@Then("I verify the History of TJX")
 	public void i_verify_the_history_of_tjx() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   //local to merge to Demo
 	}
 
 
